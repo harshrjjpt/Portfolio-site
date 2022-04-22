@@ -1,0 +1,12 @@
+.animate{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	transition: all 0.5s ease-in-out;
+	margin: 100px;
+}
+
+.animate:hover{
+	transform: scale(0.5) translate(200px) rotate(180deg);
+	border-radius: 50%;
+}
